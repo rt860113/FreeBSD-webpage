@@ -1,0 +1,268 @@
+body{
+	padding: 0;
+	margin: 0;
+}
+*{
+	font-family: arial,sans-serif;
+}
+.ul1 .list1{
+	border-left: none;
+}
+.ul1 li{
+	list-style-type: none;
+	display: inline;
+	padding-left: 5px;
+	padding-right: 0;
+	border-left: 1px solid black;
+	/*text-decoration: none;*/
+	font-size: 0.8em;
+}
+.heada{
+	text-decoration: none;
+	color: grey;
+}
+.ul1{
+	width: 30%;
+	background-image:url('bar1.gif');
+	background-repeat: no-repeat;
+	background-color: #fff;
+	background-position: center;
+	padding-left: 1%;
+	margin-top: 0;
+	margin-left: 35%;
+	border-radius: 5px;
+	padding-bottom: 6px;
+}
+.Login{
+	background-image: url('login1.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	color: white;
+	border-radius: 5px;
+	padding: 1px 10px 3px 10px;
+	text-decoration: none;
+	margin-top: 1px;
+	margin-left: 1%;
+	font-size: 0.8em;
+	font-family: Arial,sans-serif;
+}
+.headp2{
+	font-size: 2em;
+	color: white;
+	background-image: url('banner.jpg');
+	background-repeat: no-repeat;
+	background-size: 100%,100%;
+	background-position: left;
+	padding: 10px 15px;
+	width: 100%;
+}
+.img1{
+	margin-left: 1%;
+	margin-top: 3%;
+}
+.img1,.ul1,.Login,.headp2{
+	display: inline-block;
+	vertical-align: top;
+}
+#head{
+	margin: 0;
+	height: 160px;
+}
+/*Here begins Sidebar part*/
+#sidebar1{
+	width: 100%;
+	/*border-bottom: 2px solid silver;*/
+
+}
+.sidep1,.sidep2,.sidep3,.sidebutton1,.sidebutton2,.sidep4{
+	display: inline-block;
+	vertical-align: top;
+}
+.sidebutton1{
+	width: 61%;
+	background-image: url('login1.png');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	padding-left: 25%;
+	padding-right: 6px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 2px 2px;
+	font-size: 0.8em;
+}
+.sidebutton2{
+	width: 58%;
+	background-image: url('free trial.jpg');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-decoration: none;
+	color: white;
+	border-radius: 5px;
+	padding-left: 30%;
+	padding-right: 0;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin: 2px 2px;
+	font-size: 0.8em;
+}
+.sidep1{
+	color: blue;
+	font-size: 1.2em;
+	margin-bottom: 2%;
+}
+.sidep2{
+	margin-top: 1%;
+	margin-bottom: 1px;
+	color: red;
+}
+.sidep3{
+	margin-top: 1px;
+}
+.sidep4{
+	
+	width: 90%;
+	border-bottom: 2px solid silver;
+	text-align: center;
+	padding-bottom: 8%;
+}
+
+/*sidebar 2 starts here*/
+#sidebar2{
+	width: 90%;
+	margin-left: 1%;
+	height: 290px;
+	background-image: url('background.jpg');
+	background-size: 100%;
+
+}
+.img2{
+	position: relative;
+	top: 36px;
+	-webkit-transform: rotate(345deg);
+	height: 10%;
+	width: 100%;
+}
+.sidep5{
+	position: relative;
+	left: 8px;
+	width: 100%;
+	color: blue;
+	font-size: 1.4em;
+	margin-bottom: 3px;
+}
+.sidep6{
+	width: 90%;
+	font-size: 1em;
+	margin-left: 18px;
+	margin-right: 5px;
+}
+.side2a1{
+	text-align: center;
+	width: 90%;
+	background-image: url("login1.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 3px;
+	text-decoration: none;
+	color: white;
+	padding: 3px 0;
+	position: relative;
+	left: 4%;
+}
+.sidep5,.sidep6,.side2a1,.img2{
+	display: inline-block;
+	vertical-align: top;
+}
+/*sidebar*/
+#sidebar1,#sidebar2{
+	margin-right: 0;
+}
+#sidebar{
+	width: 22%;
+	padding: 0;
+	margin: 0 15px;
+}
+/*mainbody*/
+#mainbody{
+	width: 70%;
+	margin-left: 10px;
+}
+#mainbody,#sidebar{
+	display: inline-block;
+	vertical-align: top;
+}
+/*parts in the mainbody*/
+#mb1,#mb2,#mb3,#mb4{
+	display: inline-block;
+	vertical-align: top;
+}
+/*part1*/
+.mbul1,#mb1 img{
+	display: inline-block;
+	vertical-align: top;
+}
+.mbul1{
+	padding-left: 0;
+}
+.mbul1 li{
+	display: inline;
+	list-style-type: none;
+
+}
+.mbul1 li a{
+	text-decoration: none;
+}
+#mb1{
+	width: 100%;
+	border-bottom: 1px solid silver;
+	padding-bottom: 3px;
+	padding-top: 3px;
+}
+.phone{
+	position: relative;
+	left: 71%;
+}
+/*part2*/
+#mb2 h1{
+	color: blue;
+	font-weight: bold;
+}
+.mb21{
+	font-weight: bold;
+}
+/*part3*/
+#mb3 img,#mb3 h1,.mb3p1,#mb3 a{
+	display: inline-block;
+	vertical-align: top;	
+}
+#mb3 img{
+
+	height: 100%;
+}
+#mb3 h1{
+	width: 90%;
+	margin-bottom: 0px;
+	font-size: 1.2em;
+	color: blue;
+	font-weight: bold;
+}
+.mb3p1{
+	width: 80%;
+	margin-left: 8%;
+}
+#mb3 a{
+	width: 70%;
+}
+.mb3sp1{
+
+	font-weight: bold;
+}
+#mb3{
+	border: 6px solid lightblue;
+}
