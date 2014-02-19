@@ -22,12 +22,12 @@ body{
 	color: grey;
 }
 .ul1{
-	width: 30%;
+	width: 28%;
 	background-image:url('bar1.gif');
 	background-repeat: no-repeat;
 	background-color: #fff;
 	background-position: center;
-	padding-left: 1%;
+	padding-left: 2%;
 	margin-top: 0;
 	margin-left: 35%;
 	border-radius: 5px;
@@ -66,7 +66,7 @@ body{
 }
 #head{
 	margin: 0;
-	height: 160px;
+	height: 158px;
 }
 /*Here begins Sidebar part*/
 #sidebar1{
@@ -135,7 +135,7 @@ body{
 #sidebar2{
 	width: 90%;
 	margin-left: 1%;
-	height: 290px;
+	height: 320px;
 	background-image: url('background.jpg');
 	background-size: 100%;
 
@@ -149,8 +149,8 @@ body{
 }
 .sidep5{
 	position: relative;
-	left: 8px;
-	width: 100%;
+	left: 16px;
+	width: 90%;
 	color: blue;
 	font-size: 1.4em;
 	margin-bottom: 3px;
@@ -186,9 +186,17 @@ body{
 #sidebar{
 	width: 22%;
 	padding: 0;
-	margin: 0 15px;
+	margin: 25px 15px 0 15px;
+}
+#sidebar2{
+	margin-top: 10px;
 }
 /*mainbody*/
+#Main{
+	background-image: url("background.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
 #mainbody{
 	width: 70%;
 	margin-left: 10px;
@@ -235,6 +243,16 @@ body{
 }
 .mb21{
 	font-weight: bold;
+}
+.mbul2{
+	padding-left: 16px;
+}
+.mbul2 li{
+	list-style-image: url("blue square1.png");
+	/*list-style: inside;*/
+}
+.mb2li1{
+	margin-bottom: 10px;
 }
 /*part3*/
 #mb3 img,#mb31,#mb3 a{
@@ -294,4 +312,7 @@ body{
 }
 #mb4 h2{
 	color: blue;
+}
+#mb4 p{
+	margin-top: 6px;
 }
